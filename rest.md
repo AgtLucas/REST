@@ -1,5 +1,3 @@
-# O que é REST
-
 REST (Representational State Transfer, ou Transferência de Estado Representativo) é uma técnica de engenharia de software. O termo surgiu em uma tese de doutorado sobre web escrita por Roy Fielding.
 
 ## Roy Fielding
