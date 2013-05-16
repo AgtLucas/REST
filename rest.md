@@ -6,6 +6,9 @@ REST (Representational State Transfer, ou Transferência de Estado Representativ
 * Fez pesquisas explicando porque a web funciona como ela funciona; :+1:
 * O nome dele está na especificação do protocolo usado para transferir páginas dos servidores para os navegadores (HTTP ?)
 
+REST (Transferência do Estado Representativo) é pretendida como uma imagem do design da aplicação se comportará: uma rede de websites (um estado virtual), onde o usuário progride com uma aplicação selecionando as ligações (transições do estado), tendo como resultado a página seguinte (que representa o estado seguinte da aplicação) que está sendo transferida ao usuário e apresentada para seu uso.
+
+
 REST afirma que a web já desfrutou de escalabilidade como resultado de uma série de desenhos fundamentais:
 Um protocolo cliente/servidor sem estado: cada mensagem HTTP contém toda a informação necessária para compreender o pedido. Como resultado, nem o cliente e nem o servidor necessitam gravar nenhum estado das comunicações entre mensagens. Na prática, muitas aplicações baseadas em HTTP utilizam cookies e outros mecanismos para manter o estado da sessão (algumas destas práticas, como a reescrita de URLs, não são permitidas pela regra do REST).
 Um conjunto de operações bem definidas que se aplicam a todos os recursos de informação: HTTP em si define um pequeno conjunto de operações, as mais importantes são POST, GET, PUT e DELETE. Com frequência estas operações são combinadas com operações CRUD para a persistência de dados, onde POST não se encaixa exatamente neste esquema.
