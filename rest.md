@@ -42,8 +42,10 @@ Métodp PUT
 Método DELETE
 Remove (logicamente) uma entidade
 
-
-
+---
+Serviços baseados em REST são muito fáceis de entender e de se trabalhar, pois o cliente que vai utilizar o serviço REST não precisa utilizar nenhuma API especializada, ele utiliza apenas HTTP padrão =), podemos usar nosso browser para testes e experimentos.
+URI é uma maneira uniforme de identificar recursos e o HTTP é o meio utilizado para manipular estes recursos.
+Fácil consumir e desenvolver com linguagens de scripting..
 
 
 
