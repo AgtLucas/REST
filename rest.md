@@ -25,6 +25,22 @@ O uso de hipermídia, tanto para a informação da aplicação como para as tran
 
 * Em sistemas REST, os recursos são manipulados através da troca de representações do recurso.
 
+Método GET.
+
+Utilizado para retornar informação de acordo com a URI informada.
+Não deve uma mudança de estado
+Fica no cache.
+
+Método POST
+
+Utilizado para adicionar uma nova inforamação
+
+Métodp PUT
+• Utilize PUT para alterar uma informação
+• Controle total na entidade utilizada quando o ID ou chave primária é conhecido
+
+Método DELETE
+Remove (logicamente) uma entidade
 
 
 
