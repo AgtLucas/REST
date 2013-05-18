@@ -12,7 +12,7 @@ O SOAP, quando utilizado com o protocolo HTTP, utiliza somente o verbo `POST` pa
 
 Com o passar do tempo, uma outra linha de pensamento começou a surgir. Ela era composta por pessoas com diferentes perspectivas de interoperabilidade, que não ia de encontro com os cenários empresarias muito bem atendidos pelo SOAP, motivando o surgimento do REST.
 
-O termo REST nasceu na tese de doutorado do __Roy Fielding__, um dos criadores do protocolo HTTP. Em sua tese, ele escreveu sobre o sucesso da internet, do www e do próprio protocolo, descrevendo o funcionamento da internet como sendo um __Estado Representacional de Transferência__, em inglês __RE__PRESENTATIONAL _S_TATE _T_RANSFER, ou seja, REST, considerado como um estilo arquitetural, e não uma especificação. 
+O termo REST nasceu na tese de doutorado do __Roy Fielding__, um dos criadores do protocolo HTTP. Em sua tese, ele escreveu sobre o sucesso da internet, do www e do próprio protocolo, descrevendo o funcionamento da internet como sendo um __Estado Representacional de Transferência__, em inglês __RE__PRESENTATIONAL __S__TATE __T__RANSFER, ou seja, REST, considerado como um estilo arquitetural, e não uma especificação. 
 
 Os serviços que seguem o estilo arquitetural REST, são conhecidos como serviços RESTful, e se baseiam no funcionamento da web e do protocolo HTTP. Este funcionamento utiliza a estrutura de recursos, que pode ser definido como qualquer coisa importante o suficiente para ser referenciada ou utilizada por um sistema, algo que pode ser armazenado no computador ou representado como uma sequência de bits. Por exemplo, um arquivo de áudio, uma linha em uma tabela de um banco de dados ou o retorno de um algoritmo, podendo ser um objeto físico, como um livro, ou um conceito abstrato, como uma emoção. 
 
@@ -23,6 +23,13 @@ A exposição do endereço do serviço na rede é feita através de uma URI (Uni
 O funcionmaneto da "web de serviços", é baseado no mesmo princípio da "web de páginas". Ou seja, os serviços devem ser simples e abertos, permitindo que qualquer pessoa, em qualquer lugar, utilizando qualquer plataforma, seja capaz de utilizá-los. Devem ser baseados em um protocolo universal, que para web podemos considerar o HTTP, um protocolo aberto e amplamente conhecido. Os serviços devem também, expor recursos que possam ser associados através de URIs, característica que faz parte das raízes do funcionamento da web e, por uma questão de escala, devem ser apresentados através de uma comunicação sem estado e sempre que possível utilizar algum tipo de cache pelos mecanismos já existentes na infra da web.
 
 As chamadas às URIs, são realizadas através de verbos HTTP. O verbo utilizado na requisição indica para o serviço que ação deve ser realizada com o recurso, os verbos principais são: `GET`, `POST`, `PUT`, `DELETE`.
+
+* GET: Indica que o cliente quer obeter uma representação de somente leitura do recurso
+* POST: Utilizado para criar um novo recurso
+* PUT: Utilizado para atualizar um recurso existente
+* DELETE: Como o próprio nome sugere, é utilizado para excluir um recurso existente
+
+ 
 
 ---
 
