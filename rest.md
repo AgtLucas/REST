@@ -34,7 +34,8 @@ As chamadas às URIs, são realizadas através de verbos HTTP. O verbo utilizado
 Pelo fato do REST ser um estilo arquitetural e não uma especificação, não existe uma padronização sobre o formato das informações trocadas entre os clientes e os serviços, logo, faz se o uso dos formatos utilizados na web, alguns deles:
 
 * JSON (JavaScript Object Notation): é um formato baseado em texto bastante simples porém poderoso. Apesar do seu nome, esse formato vem sendo usado em várias linguagens de programação, e não somente com JavaScript. O seu principal benefício é a economia da banda de comunicação entre o cliente e o serviço.
-
+* XML: Formato amplamente conhecido, existindo bibliotecas para processamento de XML para várias plataformas.
+* RSS/Atom: O `Really Simple Syndication` e o `Atom Syndication Format` são representações XML utilizadas para publicação de feeds. O Atom é um formato mais recente e vem ganhando cada vez mais espaço.
 
 ---
 
