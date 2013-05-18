@@ -1,4 +1,16 @@
-REST (Representational State Transfer, ou Transferência de Estado Representativo) é uma técnica de engenharia de software. O termo surgiu em uma tese de doutorado sobre web escrita por Roy Fielding.
+REST é uma técnica de engenharia de software para sistemas distribuídos, que serviu de molde para o protocolo HTTP. O termo surgiu em uma tese de doutorado sobre web escrita por Roy Fielding.
+
+Roy Fielding ajudou a escrever os primeiros servidores web, fez pesquisas explicando porque a web funciona como ela funciona, entre outros. 
+
+REST significa __RE__presentational __S__tate __T__ransfer (Transferência de Estado Representacional).
+
+Para entender de onde veio esse nome, temos que conhecer primeiro os principais conceitos sobre REST.
+
+* Recursos: São os elementos de informação na aplicação. Tudo aquilo que é importante ser exposto.
+
+* Identificadores de recurso (URI): São usados para identificar recursos específicos para interações no sistema.
+
+Híbrido, REST é um conjunto de vários estilos arquitetônicos baseados em rede, tais como 
 
 ## Roy Fielding
 
