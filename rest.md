@@ -12,13 +12,15 @@ O SOAP, quando utilizado com o protocolo HTTP, utiliza somente o verbo `POST` pa
 
 Com o passar do tempo, uma outra linha de pensamento começou a surgir. Ela era composta por pessoas com diferentes perspectivas de interoperabilidade, que não ia de encontro com os cenários empresarias muito bem atendidos pelo SOAP, motivando o surgimento do REST.
 
-O termo REST nasceu na tese de doutorado do __Roy Fielding__, um dos criadores do protocolo HTTP. Em sua tese, ele escreveu sobre o sucesso da internet, do www e do próprio protocolo, descrevendo o funcionamento da internet como sendo um __Estado Representacional de Transferência__, em inglês __RE__PRESENTATIONAL __S__TATE __T__RANSFER, ou seja, REST, considerado como um estilo arquitetural, e não uma especificação. 
+O termo REST nasceu na tese de doutorado do __Roy Fielding__, um dos criadores do protocolo HTTP. Em sua tese, ele escreveu sobre o sucesso da internet, do www e do próprio protocolo, descrevendo o funcionamento da internet como sendo um __Estado Representacional de Transferência__, em inglês __RE__PRESENTATIONAL __S__TATE __T__RANSFER, ou seja, REST, considerado como um estilo arquitetural, com um conjunto de restrições, e não uma especificação. 
 
 Para Roy Fielding;
 
 > "REST é pretendida como uma imagem do design da aplicação se comportará: uma rede de websites (um estado virtual), onde o usuário progride com uma aplicação selecionando as ligações (transições do estado), tendo como resultado a página seguinte (que representa o estado seguinte da aplicação) que está sendo transferida ao usuário e apresentada para seu uso."
 
 Os serviços que seguem o estilo arquitetural REST, são conhecidos como serviços RESTful, e se baseiam no funcionamento da web e do protocolo HTTP. Este funcionamento utiliza a estrutura de recursos, que pode ser definido como qualquer coisa importante o suficiente para ser referenciada ou utilizada por um sistema, algo que pode ser armazenado no computador ou representado como uma sequência de bits. Por exemplo, um arquivo de áudio, uma linha em uma tabela de um banco de dados ou o retorno de um algoritmo, podendo ser um objeto físico, como um livro, ou um conceito abstrato, como uma emoção. 
+
+Serviços baseados em REST são muito fáceis de entender e de se trabalhar, pois o cliente que vai utilizar o serviço REST não precisa utilizar nenhuma API especializada, ele utiliza apenas HTTP padrão, podemos usar nosso browser para testes e experimentos.
 
 A exposição do endereço do serviço na rede é feita através de uma URI (Uniform Resource Indicator). A URI pode ser considerada uma das tecnologias fundamentais da web.
 
@@ -32,6 +34,20 @@ As chamadas às URIs, são realizadas através de verbos HTTP. O verbo utilizado
 * POST: Utilizado para criar um novo recurso
 * PUT: Utilizado para atualizar um recurso existente
 * DELETE: Como o próprio nome sugere, é utilizado para excluir um recurso existente
+
+### Características
+
+* __Arquitetura Cliente / Servidor__: Como a arquitetura cliente/servidor naturalmente leva à definição de uma interface, a aplicação cliente independe de plataforma e é possível a evolução das duas partes, cliente e servidor, desde que a interface permaneça a mesma. Tal arquitetura também permite a simplificação dos componentes do servidor. Respectivamente, obtemos maior portabilidade, extensibilidade e escalabilidade;
+
+* __Sem estado__: Cada requisição do cliente para o servidor "se basta", ou seja, contém toda a informação necessária para ser atendida pelo servidor. Sem precisar guardar nenhuma informação de estado, o servidor fica mais escalável por ser mais simples e não precisar gerenciar os estados de vários clientes. Além disso, o sistema fica mais confiável, visto que facilita a recuperação de falhas;
+
+* __Cacheamento__: Permitindo que o cache seja mantido no cliente, podemos eliminar interações com requisições equivalentes, permitindo que o servidor fique mais livre e, portanto, o sistema fica mais escalável. Além é claro, do aumento na performance, claramente percebida pelo usuário;
+
+* __Interface Uniforme__: São os verbos, as operações que podem ser aplicadas aos recursos, No modelo REST a interface bem definida permite maior extensibilidade do sistema;
+
+* __Camadas__: Adicionar camadas entre cliente e servidor permite escalabilidade, uma vez que esses intermediários permitem balanceamento de carga. Além disso, os intermediários podem manter caches, melhorando a performance geral da aplicação, e implementar políticas de segurança, melhorando a confiabilidade;
+
+* __Código sob demanda__: As funcionalidades do cliente podem ser aumentadas por envio de código sob demanda, que pode vir na forma de scripts, para serem executados. Com isso, são os componentes do cliente que podem ser simplificados e melhorar a extensibilidade. Porém, isso reduz a visibilidade, ou seja, monitorar as ações no sistema fica mais díficil
 
  #### Formato de representação de recursos
 
