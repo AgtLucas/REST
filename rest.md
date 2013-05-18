@@ -4,7 +4,19 @@ Em 1990, a web começou a ganhar força, e as pessoas começaram a perceber uma 
 
 A partir desse "problema", em 1998, algumas empresas entre elas a Microsoft, criaram um padrão chamado XML-RPC. Esse padrão evoluiu com o passar do tempo, após algumas funcionalidades que foram adicionadas. Graças a essa evolução, o XML-RPC serviu como base para outro padrão, o SOAP.
 
-SOAP (Somple Object Access Protocol) é um padrão baseado em ações, que nada mais é do que uma abstração para chamadas de métodos, no geral um serviço SOAP possui um único endereço de acesso e várias ações.
+SOAP (Simple Object Access Protocol) é um padrão baseado em ações, que nada mais é do que uma abstração para chamadas de métodos, no geral um serviço SOAP possui um único endereço de acesso e várias ações. Essas ações podem ocorrer sobre vários protocolos, tais como, SMTP e HTTP, tendo como grande benefício o controle fim a fim da mensagem.
+
+O SOAP, quando utilizado com o protocolo HTTP, utiliza somente o verbo `POST` para transmissão das informações, um verbo que não pode ser utilizado com cache, uma vez que a especificiação HTTP define que apenas o verbo `GET` pode ser utilzado desta maneira. O uso do `POST` ocorre até mesmo para consulta de recursos somente leitura, cenário que poderia ser beneficiado pelo uso do cache. Apesar desta limitação, não podemos nos esquecer que o SOAP foi projetado para ser utilizado com vários protocolos diferentes e ele não pode tirar vantagem de características específicas à um ou outro protocolo.
+
+#### Surgimento do REST
+
+Com o passar do tempo, uma outra linha de pensamento começou a surgir. Ela era composta por pessoas com diferentes perspectivas de interoperabilidade, que não ia de encontro com os cenários empresarias muito bem atendidos pelo SOAP, motivando o surgimento do REST.
+
+O termo REST nasceu na tese de doutorado do __Roy Fielding__, um dos criadores do protocolo HTTP. Em sua tese, ele escreveu sobre o sucesso da internet, do www e do próprio protocolo, descrevendo o funcionamento da internet como sendo um __Estado Representacional de Transferência__, em inglês __RE__PRESENTATIONAL _S_TATE _T_RANSFER, ou seja, REST, considerado como um estilo arquitetural, e não uma especificação. 
+
+
+
+
 
 ---
 
