@@ -1,4 +1,10 @@
-REST é uma técnica de engenharia de software para sistemas distribuídos, que serviu de molde para o protocolo HTTP. O termo surgiu em uma tese de doutorado sobre web escrita por Roy Fielding.
+## Introdução
+
+REST é um estilo de arquitetura de software para sistemas distribuídos, que serviu de molde para o protocolo HTTP. O termo surgiu em uma tese de doutorado sobre web escrita por Roy Fielding.
+
+Em 1990, a web começou a ganhar força, e as pessoas começaram a perceber uma maneira de fazer negocios na web, surgindo assim, a necessidade de algum meio de se realizar transações pela internet.
+
+
 
 Roy Fielding ajudou a escrever os primeiros servidores web, fez pesquisas explicando porque a web funciona como ela funciona, entre outros. 
 
