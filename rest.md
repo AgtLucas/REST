@@ -14,6 +14,10 @@ Com o passar do tempo, uma outra linha de pensamento começou a surgir. Ela era 
 
 O termo REST nasceu na tese de doutorado do __Roy Fielding__, um dos criadores do protocolo HTTP. Em sua tese, ele escreveu sobre o sucesso da internet, do www e do próprio protocolo, descrevendo o funcionamento da internet como sendo um __Estado Representacional de Transferência__, em inglês __RE__PRESENTATIONAL __S__TATE __T__RANSFER, ou seja, REST, considerado como um estilo arquitetural, e não uma especificação. 
 
+Para Roy Fielding;
+
+> "REST é pretendida como uma imagem do design da aplicação se comportará: uma rede de websites (um estado virtual), onde o usuário progride com uma aplicação selecionando as ligações (transições do estado), tendo como resultado a página seguinte (que representa o estado seguinte da aplicação) que está sendo transferida ao usuário e apresentada para seu uso."
+
 Os serviços que seguem o estilo arquitetural REST, são conhecidos como serviços RESTful, e se baseiam no funcionamento da web e do protocolo HTTP. Este funcionamento utiliza a estrutura de recursos, que pode ser definido como qualquer coisa importante o suficiente para ser referenciada ou utilizada por um sistema, algo que pode ser armazenado no computador ou representado como uma sequência de bits. Por exemplo, um arquivo de áudio, uma linha em uma tabela de um banco de dados ou o retorno de um algoritmo, podendo ser um objeto físico, como um livro, ou um conceito abstrato, como uma emoção. 
 
 A exposição do endereço do serviço na rede é feita através de uma URI (Uniform Resource Indicator). A URI pode ser considerada uma das tecnologias fundamentais da web.
