@@ -51,7 +51,7 @@ As chamadas às URIs, são realizadas através de verbos HTTP. O verbo utilizado
 
 ---
 
- #### Formato de representação de recursos
+#### Formato de representação de recursos
 
 Pelo fato do REST ser um estilo arquitetural e não uma especificação, não existe uma padronização sobre o formato das informações trocadas entre os clientes e os serviços, logo, faz se o uso dos formatos utilizados na web, alguns deles:
 
