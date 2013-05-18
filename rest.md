@@ -48,7 +48,6 @@ URI é uma maneira uniforme de identificar recursos e o HTTP é o meio utilizado
 Fácil consumir e desenvolver com linguagens de scripting..
 
 
-
-
+HATEOAS
 
 
