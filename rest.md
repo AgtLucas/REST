@@ -29,7 +29,12 @@ As chamadas às URIs, são realizadas através de verbos HTTP. O verbo utilizado
 * PUT: Utilizado para atualizar um recurso existente
 * DELETE: Como o próprio nome sugere, é utilizado para excluir um recurso existente
 
- 
+ #### Formato de representação de recursos
+
+Pelo fato do REST ser um estilo arquitetural e não uma especificação, não existe uma padronização sobre o formato das informações trocadas entre os clientes e os serviços, logo, faz se o uso dos formatos utilizados na web, alguns deles:
+
+* JSON (JavaScript Object Notation): é um formato baseado em texto bastante simples porém poderoso. Apesar do seu nome, esse formato vem sendo usado em várias linguagens de programação, e não somente com JavaScript. O seu principal benefício é a economia da banda de comunicação entre o cliente e o serviço.
+
 
 ---
 
