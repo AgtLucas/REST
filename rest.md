@@ -47,7 +47,6 @@ Serviços baseados em REST são muito fáceis de entender e de se trabalhar, poi
 URI é uma maneira uniforme de identificar recursos e o HTTP é o meio utilizado para manipular estes recursos.
 Fácil consumir e desenvolver com linguagens de scripting..
 
-
 HATEOAS
 
 
