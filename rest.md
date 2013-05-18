@@ -20,7 +20,9 @@ A exposição do endereço do serviço na rede é feita através de uma URI (Uni
 
 #### Funcionamento do REST
 
-O funcionmaneto da "web de serviços", é baseado no mesmo princípio da "web de páginas". Ou seja, os serviços devem ser simples e abertos, permitindo que qualquer pessoa, em qualquer lugar, utilizando qualquer plataforma, seja capaz de utilizá-los.
+O funcionmaneto da "web de serviços", é baseado no mesmo princípio da "web de páginas". Ou seja, os serviços devem ser simples e abertos, permitindo que qualquer pessoa, em qualquer lugar, utilizando qualquer plataforma, seja capaz de utilizá-los. Devem ser baseados em um protocolo universal, que para web podemos considerar o HTTP, um protocolo aberto e amplamente conhecido. Os serviços devem também, expor recursos que possam ser associados através de URIs, característica que faz parte das raízes do funcionamento da web e, por uma questão de escala, devem ser apresentados através de uma comunicação sem estado e sempre que possível utilizar algum tipo de cache pelos mecanismos já existentes na infra da web.
+
+As chamadas às URIs, são realizadas através de verbos HTTP. O verbo utilizado na requisição indica para o serviço que ação deve ser realizada com o recurso, os verbos principais são: `GET`, `POST`, `PUT`, `DELETE`.
 
 ---
 
